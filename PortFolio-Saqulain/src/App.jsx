@@ -9,7 +9,7 @@ import Skills from './pages/Skills'
 
 const App = () => {
   return (
-    <div className='bg-gray-100' >
+    <div className='bg-gray-100 h-screen ' >
       <Navbar />
 
       <Routes>

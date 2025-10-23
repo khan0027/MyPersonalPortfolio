@@ -12,19 +12,19 @@ const Navbar = () => {
         <div className='w-full' >
             <ul className='flex flex-row justify-evenly items-center text-gray-200 ' >
                 <li >
-                    <NavLink className={({isActive}) => `${isActive ? `text-yellow-400`:`text-gray-500`}`}  to='/' >Home</NavLink>
+                    <NavLink className={({isActive}) => `${isActive ? `text-yellow-400 font-bold `:`text-gray-500`}`}  to='/' >Home</NavLink>
                 </li>
                 <li >
-                    <NavLink className={({isActive}) => `${isActive ? `text-yellow-400`:`text-gray-500`}`}  to='/about' >About</NavLink>
+                    <NavLink className={({isActive}) => `${isActive ? `text-yellow-400 font-bold `:`text-gray-500`}`}  to='/about' >About</NavLink>
                 </li>
                 <li >
-                    <NavLink className={({isActive}) => `${isActive ? `text-yellow-400`:`text-gray-500`}`}  to='/projects' >Projects</NavLink>
+                    <NavLink className={({isActive}) => `${isActive ? `text-yellow-400 font-bold `:`text-gray-500`}`}  to='/projects' >Projects</NavLink>
                 </li>
                 <li >
-                    <NavLink className={({isActive}) => `${isActive ? `text-yellow-400`:`text-gray-500`}`}  to='/skills' >Skills</NavLink>
+                    <NavLink className={({isActive}) => `${isActive ? `text-yellow-400 font-bold `:`text-gray-500`}`}  to='/skills' >Skills</NavLink>
                 </li>
                 <li >
-                    <NavLink className={({isActive}) => `${isActive ? `text-yellow-400`:`text-gray-500`}`}  to='/contact-me' >Contact Me</NavLink>
+                    <NavLink className={({isActive}) => `${isActive ? `text-yellow-400 font-bold `:`text-gray-500`}`}  to='/contact-me' >Contact Me</NavLink>
                 </li>
 
             </ul>
